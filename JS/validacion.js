@@ -1,4 +1,3 @@
-
 const err = document.getElementById('error')
 const name = document.getElementById('name')
 
@@ -18,7 +17,6 @@ function validation(event){
     function displaymessages (){
         if(messages.length > 0){
             err.innerText = messages.join(', ')
-            alert('sin exito')
     }else alert('Presione aqui para enviar')
     form.submit()
     }
@@ -33,6 +31,4 @@ const quiero = document.getElementById('quiero')
 const form = document.getElementById('form')
 const err = document.getElementById('error')
 form.addEventListener('submit', validation)
-
-
 */
